@@ -27,7 +27,7 @@ jobs:
           # Options
           user: mongchuan
           template: classic
-          base: header, activity, community, metadata
+          base: header, activity, community, repositories, metadata
           config_timezone: Asia/Singapore
           plugin_achievements: yes
           plugin_achievements_display: compact
