@@ -27,7 +27,8 @@ jobs:
           # Options
           user: mongchuan
           template: classic
-          base: header, activity, community, repositories, metadata
+          # base: header, activity, community, repositories, metadata
+          base: header
           config_timezone: Asia/Singapore
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
@@ -62,3 +63,4 @@ jobs:
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
+          config_order: base.header, isocalendar, habits, languages, followup, achievements
