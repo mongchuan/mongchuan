@@ -63,4 +63,4 @@ jobs:
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
-          config_order: base.header, introduction, isocalendar, habits, languages, followup, achievements
+          config_order: base.header, introduction, isocalendar, activity, community, repositories, metadata, habits, languages, followup, achievements
